@@ -1,0 +1,39 @@
+/*
+- npm init -y
+- npm i sequelize sequelize-cli express pg
+- npm i bcrypt jsonwebtoken dotenv
+- npx nodemon bin/www
+=> npm i -d nodemon
+- make gitignore and inside it fill with node_modules and .env
+- mkdir controllers routers middlewares helpers
+touch controllers/controller.js routers/index.js app.js
+touch middlewares/adminonly.js middlewares/authentication.js middlewares/adminonly.js
+touch helpers/bcrypt.js helpers/jwtoken.js
+touch .gitignore
+- mkdir bin
+touch bin/www
+=> npx sequelize init
+- npx sequelize db:create (databasa)
+
+--- ini proses table
+- npx sequelize model:create --name User --attributes username:string,email:string,password:string,role:string,phoneNumber:string,address:string
+
+- npx sequelize migration:create --name Valuation
+- npx sequelize db:migrate
+- npx sequelize db:migrate --env test
+- npx sequelize db:migrate:undo
+- npx sequlize db:create --env test
+
+--- ini proses seed
+- npx sequelize db:seed --seed 20240102120851-seed-lodging.js
+- npx sequelize-cli seed:generate --name test-user
+- npx sequelize seed:create --na
+me Seed1
+- npx sequelize db:seed:all
+- npx sequelize db:seed:undo
+---
+ */
+
+-- pagination, sort
+-- docs
+-- testing

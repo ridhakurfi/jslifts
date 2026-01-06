@@ -1,0 +1,27 @@
+[
+  {
+    "username": "alex.morgan",
+    "password": "Alex@1988!",
+    "role": "admin"
+  },
+  {
+    "username": "siti.rahmawati",
+    "password": "Siti#1995",
+    "role": "user"
+  },
+  {
+    "username": "diego.fernandez",
+    "password": "Diego_1992",
+    "role": "user"
+  },
+  {
+    "username": "amina.khan",
+    "password": "Amina@2000",
+    "role": "admin"
+  },
+  {
+    "username": "yuki.tanaka",
+    "password": "Yuki!1997",
+    "role": "user"
+  }
+]

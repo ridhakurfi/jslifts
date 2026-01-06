@@ -1,0 +1,22 @@
+[
+  {
+    "username": "john.smith",
+    "password": "John@1990",
+    "role": "user"
+  },
+  {
+    "username": "maria.garcia",
+    "password": "Maria#1989",
+    "role": "admin"
+  },
+  {
+    "username": "ahmad.fauzi",
+    "password": "Ahmad!1994",
+    "role": "user"
+  },
+  {
+    "username": "lucas.martin",
+    "password": "Lucas_1996",
+    "role": "user"
+  }
+]
