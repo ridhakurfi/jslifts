@@ -9,6 +9,9 @@ const errorHandler = (err, req, res, next) => {
     case "Unauthorized":
       res.status(400).json({ message: "Please login to continue" });
       break;
+    case "Forbidden":
+      res.status(400).json({ message: "Admin only Access" });
+      break;
     default:
       console.log(err);
       res.status(500).json({ message: "Internal Error in Handler" });
