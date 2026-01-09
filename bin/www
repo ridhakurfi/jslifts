@@ -2,5 +2,5 @@ const app = require("../app");
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`We are in port ${port}`);
+  console.log(`Welcome to port ${port}`);
 });
