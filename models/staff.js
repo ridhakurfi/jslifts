@@ -14,9 +14,13 @@ module.exports = (sequelize, DataTypes) => {
   }
   Staff.init(
     {
-      username: { type: DataTypes.STRING, validate: { len: [5, 255] } },
-      password: DataTypes.STRING,
-      role: DataTypes.STRING,
+      username: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: { len: [5, 255] },
+      },
+      password: { type: DataTypes.STRING, allowNull: false },
+      role: { type: DataTypes.STRING, allowNull: false },
     },
     {
       hooks: {
