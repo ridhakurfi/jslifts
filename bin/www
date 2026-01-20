@@ -2,5 +2,5 @@ const app = require("../app");
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`nanban desuka? ${port} da`);
+  console.log(`kore wa poruto ${port} da`);
 });
