@@ -2,5 +2,5 @@ const app = require("../app");
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`nanika poruto ${port} da`);
+  console.log(`itsumo poruto ${port} da`);
 });
